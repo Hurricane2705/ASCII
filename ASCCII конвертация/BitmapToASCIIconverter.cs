@@ -5,7 +5,7 @@ namespace ASCCII_конвертация
 {
     public class BitmapToASCIIconverter
     {
-        private readonly char[] ascii_table = { '.', ',', ':', '+', '*', '?', '%', 'S', '#', '@' };
+        private readonly char[] ascii_table = { ' ', '.', ',', ':', '!', '*', 'O', '#', '%', '$', '@' };//{ '.', ',', ':', '+', '*', '?', '%', 'S', '#', '@' };
         private readonly Bitmap _bitmap;
         public BitmapToASCIIconverter(Bitmap bitmap)
         {

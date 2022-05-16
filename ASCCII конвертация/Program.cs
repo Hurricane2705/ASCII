@@ -12,7 +12,7 @@ namespace ASCCII_конвертация
     {
         private const int maxH = 160;
         private const int maxW = 630;
-        char[] ascii_table = { '.', ',', ':', '+', '*', '?', '%', 'S', '#', '@' };
+        public static char[] ascii_table = { ' ', '.', ',', ':', '!', '*', 'O', '#', '%', '$', '@' };
 
         [STAThread] //Без этого вызов OpenDialog вызовет ошибку
 
